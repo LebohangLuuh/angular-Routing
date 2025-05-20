@@ -1,0 +1,38 @@
+
+<body class="bg-black h-[100vh] justify-center items-center">
+
+
+
+
+    <div
+        class="login m-auto  mt-10 mb-0 pb-0 p-10 flex flex-col gap-1 rounded-xl h-auto border w-[30%] bg-black text-white">
+
+        <h1 class="text-3xl font-thin text-white italic text-center ">
+            Login</h1>
+
+        <div class="uname ">
+            <label for="name"> Username</label>
+            <input type="email" class="name border mt-5 border-white p-2 ml-10 w-[60%] rounded-lg bg-transparent "
+                placeholder="enter username" required>
+        </div>
+
+        <div class="pword ">
+            <label for="name"> Password </label>
+            <input class="pword border border-white mt-5 p-2 rounded-lg ml-10 w-[60%] bg-transparent" type="password"
+                placeholder="enter password" required>
+        </div>
+
+        <div class="bg-black text-white p-2 border mt-5 hover:bg-white hover:text-black hover:font-bold border-white rounded-full w-full h-auto text-center font-thin">
+            <button routerLingk="/home" class="btnLogin ">Login</button>
+
+        </div>
+
+        <div
+            class="bg-white m-auto mt-5 rounded-t-full p-2 flex items-center hover:animate-pulse animate-bounce  justify-center w-[50%] text-center">
+            <a href="" routerLink="/register" class="text-black text-black sans font-bold"> Register</a>
+        </div>
+
+    </div>
+
+</body>
+
